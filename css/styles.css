@@ -554,14 +554,17 @@ img {
 }
 
 .footer-form-button {
-  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-  padding-left: 24px;
   text-align: left;
   outline: none;
   width: 165px;
@@ -574,8 +577,8 @@ img {
 }
 
 .footer-form-icon {
-  position: absolute;
-  padding-left: 86px;
+  width: 24px;
+  height: 24px;
 }
 
 .footer-form-button:hover,
