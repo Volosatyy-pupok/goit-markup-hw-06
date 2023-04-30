@@ -773,6 +773,7 @@ img {
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
+  border: 2px solid;
   border-color: var(--accept-modal);
 }
 
