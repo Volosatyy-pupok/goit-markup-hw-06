@@ -759,7 +759,8 @@ img {
   margin-right: 8px;
   transition: background-color var(--transition-dur-and-func),
     border-color var(--transition-dur-and-func),
-    background-image var(--transition-dur-and-func);
+    background-image var(--transition-dur-and-func),
+    color var(--transition-dur-and-func);
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
@@ -767,19 +768,21 @@ img {
   border-color: var(--accept-modal);
   background-image: url(/images/accept-form-modal.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 75%;
+  background-position: center;
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
-  background-color: var(--accept-modal);
   border-color: var(--accept-modal);
-  background-image: url(/images/accept-form-modal.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .modal-form-policy {
   color: #4d5ae5;
+}
+
+.modal-form-policy:hover,
+.modal-form-policy:focus {
+  color: #404bbf;
 }
 
 .modal-form-field {
