@@ -455,7 +455,7 @@ img {
 .footer-div {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  gap: 80px;
 }
 
 .footer-socials-title {
@@ -617,7 +617,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-close-btn {
@@ -659,7 +659,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
-  margin-top: 44px;
 }
 
 .modal-form {
@@ -715,6 +714,10 @@ img {
     filter var(--transition-dur-and-func);
 }
 
+.modal-form-field-comment {
+  margin-bottom: 16px;
+}
+
 .user-form-comment::placeholder {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -766,7 +769,7 @@ img {
 .modal-form-check:checked + .modal-form-check-desc::before {
   background-color: var(--accept-modal);
   border-color: var(--accept-modal);
-  background-image: url(/images/accept-form-modal.svg);
+  background-image: url(../images/accept-form-modal.svg);
   background-repeat: no-repeat;
   background-size: 75%;
   background-position: center;
