@@ -522,6 +522,11 @@ img {
 
 .footer-form {
   display: flex;
+  gap: 24px;
+}
+
+.footer-form-label {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
